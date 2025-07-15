@@ -18,6 +18,17 @@ sudo apt update
 sudo apt install git curl unzip make build-essential python3 g++
 ```
 
+# Deployment User
+```shell
+adduser karan
+```
+```shell
+usermod -aG sudo karan
+```
+```shell
+su - karan
+```
+
 ## Node.js and Yarn
 ```shell
 nvm install x.x.x
