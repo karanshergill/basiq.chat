@@ -29,6 +29,21 @@ usermod -aG sudo karan
 su - karan
 ```
 
+# Framework, Tools and Dependencies
+- Node: 22.16.0
+- Meteor: 3.3
+
+# Git
+```shell
+git clone https://github.com/karanshergill/basiq.chat
+```
+```shell
+cd basiq.chat
+```
+
+
+
+
 ## Node.js and Yarn
 ```shell
 nvm install x.x.x
